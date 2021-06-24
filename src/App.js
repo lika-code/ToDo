@@ -3,6 +3,7 @@ import axios from "axios";
 import {  Route, useHistory, useLocation } from "react-router-dom";
 
 import { List, AddList, Tasks } from "./components";
+//todo App
 
 function App() {
   const [lists, setLists] = useState(null);
